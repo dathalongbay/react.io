@@ -1,5 +1,8 @@
 # react.io
 ## Xây dựng ứng dụng Shopping Cart
+## Cấu trúc thư mục
+![image](https://user-images.githubusercontent.com/6966136/183286769-0058295b-d5bd-44cf-b2ff-b45718702837.png)
+
 tạo 1 file File package.json với nội dung như sau : 
 ```
 {
@@ -55,7 +58,7 @@ ReactDOM.render(
   document.getElementById("root")
 );
 ```
-## Nội dung file app.js
+## Nội dung file App.js
 ```
 import React from 'react';
 import {BrowserRouter as Router,Link, Route,Switch} from 'react-router-dom'
