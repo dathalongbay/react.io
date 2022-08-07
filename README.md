@@ -82,3 +82,10 @@ function App() {
 
 export default App;
 ```
+## Thêm file styles.css
+```
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+```
