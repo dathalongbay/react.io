@@ -2,6 +2,7 @@
 ## Xây dựng ứng dụng Shopping Cart
 ## Cấu trúc thư mục
 ![image](https://user-images.githubusercontent.com/6966136/183286769-0058295b-d5bd-44cf-b2ff-b45718702837.png)
+![image](https://user-images.githubusercontent.com/6966136/183286789-a77405d9-e6a1-467d-b086-1d9307b5e06c.png)
 
 tạo 1 file File package.json với nội dung như sau : 
 ```
