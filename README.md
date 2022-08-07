@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/6966136/183286769-0058295b-d5bd-44cf-b2ff-b45718702837.png)
 ![image](https://user-images.githubusercontent.com/6966136/183286789-a77405d9-e6a1-467d-b086-1d9307b5e06c.png)
 
-tạo 1 file File package.json với nội dung như sau : 
+## tạo 1 file File package.json với nội dung như sau : 
 ```
 {
   "name": "react",
@@ -88,4 +88,12 @@ export default App;
   font-family: sans-serif;
   text-align: center;
 }
+```
+## tạo file stores/index.js
+```
+import { createStore, applyMiddleware } from 'redux';
+import thunkMiddleware from 'redux-thunk';
+import ShopApp from '../reducers/index'
+const store =  createStore(ShopApp,applyMiddleware(thunkMiddleware));
+export default store;
 ```
