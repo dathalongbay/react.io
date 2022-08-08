@@ -460,6 +460,25 @@ function App() {
 export default App;
 
 ```
+
+## public/index.js
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css'
+import App from './App';
+import {Provider} from 'react-redux';
+import store  from './stores'
+ReactDOM.render(
+  <Provider store = {store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+);
+
+
+```
+
 ## public/index.html
 ```
 <!DOCTYPE html>
@@ -505,22 +524,5 @@ export default App;
 </body>
 
 </html>
-```
-## public/index.js
-```
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css'
-import App from './App';
-import {Provider} from 'react-redux';
-import store  from './stores'
-ReactDOM.render(
-  <Provider store = {store}>
-    <App />
-  </Provider>,
-  document.getElementById('root')
-);
-
-
 ```
 
