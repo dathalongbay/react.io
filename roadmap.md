@@ -1,0 +1,4 @@
+- react memory leak
+- nodejs inspect production bug
+- mearn crud tutorial 
+- https://tonyhb.gitbooks.io/redux-without-profanity/content/normalizer.html
