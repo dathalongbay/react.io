@@ -1,0 +1,10 @@
+{
+  "name": "com",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "git clone https://github.com/gittower/git-crash-course.git other-name",
+    "c1": "cd other-name"
+  },
+  "dependencies": {
+  }
+}

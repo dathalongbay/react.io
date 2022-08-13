@@ -1,4 +1,5 @@
 # react.io
+# https://www.robinwieruch.de/react-function-component/
 ## Xây dựng ứng dụng Shopping Cart
 ## Cấu trúc thư mục
 ![image](https://user-images.githubusercontent.com/6966136/183286769-0058295b-d5bd-44cf-b2ff-b45718702837.png)
